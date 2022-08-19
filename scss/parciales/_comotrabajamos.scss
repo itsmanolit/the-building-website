@@ -1,0 +1,96 @@
+
+/* COMO TRABAJAMOS */
+
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 25px;
+
+} 
+.como-trabajamos .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: (1,200px);
+    gap: 35px;
+    padding: 2rem 0;
+    background-color: black;
+    padding: 32px 0;
+    width: 100%;
+    background-size: cover;
+
+}
+
+
+.grid__hijo{
+    background-color:#464646;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.grid__hijo--1{
+    grid-column: 2/3;
+}
+
+.grid__hijo--2{
+    grid-column: 3/4;
+}
+
+.grid__hijo--3{
+    grid-column: 2/3;
+}
+
+.grid__hijo--4{
+    grid-column: 3/4;
+}
+
+
+.fondo{
+    background-color: #001e1d;
+
+}
+.two__sub{
+    padding-top: 0.5rem;
+}
+
+.two__tit{
+    padding-top: 1rem; 
+}
+
+
+
+.comotrabajamos{ /*seguimos en seccion como trabajamos*/ /*como hacer padding aca y porque no me deja?*/
+    display: flex;
+    flex-direction: column; /*aplicando flexbox a todos los elementos de la grid, para luego poder centrar sus elementos y que quede prolijo*/
+    align-items: center;
+}
+
+
+
+
+.comotrabajamos__img{
+    width: 200px;
+    height: 200px; /*agrandado de imagen*/
+    color: #ffffff;
+}
+
+.comotrabajamos__pasion{
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__calidad{
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__objetivos{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__tecnologias{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__p{
+    margin: 1rem;
+
+} 

@@ -1,0 +1,67 @@
+.item1, .item2, .item3{
+    font-size: 65px;
+    font-weight: 700;
+    padding: 2rem;
+    text-align: start;
+}
+
+
+
+.web-flexbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto{
+    background-color: #665252; 
+    width: 50%;
+    padding: 3rem;
+    color: #0f0b0b;
+}
+
+
+
+.mobileflexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.responsive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.celutexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.celutexto__mover{
+    transform: translate(0, -60px);
+}
+
+/*pagina de servicios (nuevo html)*/
+
+.ipad-imgrotar{
+    transform: rotate(-90deg);
+}
+
+.ipad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.card-text{
+    color: #000;
+    background-color: #836363;
+}

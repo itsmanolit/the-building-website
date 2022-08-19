@@ -1,0 +1,388 @@
+.item1, .item2, .item3 {
+  font-size: 65px;
+  font-weight: 700;
+  padding: 2rem;
+  text-align: start; }
+
+.web-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.texto {
+  background-color: #665252;
+  width: 50%;
+  padding: 3rem;
+  color: #0f0b0b; }
+
+.mobileflexbox {
+  display: flex;
+  flex-direction: row; }
+
+.responsive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.celutexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 300; }
+
+.celutexto__mover {
+  transform: translate(0, -60px); }
+
+/*pagina de servicios (nuevo html)*/
+.ipad-imgrotar {
+  transform: rotate(-90deg); }
+
+.ipad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3rem; }
+
+.card-text {
+  color: #000;
+  background-color: #836363; }
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+a {
+  color: #0f0b0b;
+  padding: 0.6rem;
+  text-decoration: none; }
+
+dl, ol, ul {
+  margin-bottom: 0; }
+
+body {
+  background-color: #3f4144; }
+
+h1 {
+  font-size: 80px;
+  /*no puedo achicar las tipografiasssss*/ }
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff; }
+
+body {
+  font-family: Helvetica, Sans-Serif;
+  color: #ffffff;
+  margin-bottom: 40px; }
+
+main {
+  background-color: #3f4144; }
+
+/* PAGINA INICIO */
+/* SECCION BIENVENIDA */
+.home .seccion-bienvenida {
+  /*inicio 1 the builder...*/
+  width: 100%;
+  height: 608px;
+  background: url(../img/fondo-home.jpg) no-repeat center center #423c3cb5;
+  background-size: cover;
+  background-blend-mode: multiply;
+  text-align: center;
+  padding-top: 30vh;
+  line-height: 50px; }
+
+.home .seccion-bienvenida .btn-contacto {
+  /*boton del inicio 1 the builder...*/
+  background-color: #f9bc60e6;
+  color: #001e1d;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px;
+  margin-top: 3rem;
+  border-radius: 7px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  transition: transform 1s; }
+
+.btn-contacto:hover {
+  transform: rotate(360deg); }
+
+/* COMO TRABAJAMOS */
+.titulo-seccion {
+  text-align: center;
+  font-size: 25px; }
+
+.como-trabajamos .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1, 200px;
+  gap: 35px;
+  padding: 2rem 0;
+  background-color: black;
+  padding: 32px 0;
+  width: 100%;
+  background-size: cover; }
+
+.grid__hijo {
+  background-color: #464646;
+  color: #ffffff;
+  border-radius: 5px; }
+
+.grid__hijo--1 {
+  grid-column: 2/3; }
+
+.grid__hijo--2 {
+  grid-column: 3/4; }
+
+.grid__hijo--3 {
+  grid-column: 2/3; }
+
+.grid__hijo--4 {
+  grid-column: 3/4; }
+
+.fondo {
+  background-color: #001e1d; }
+
+.two__sub {
+  padding-top: 0.5rem; }
+
+.two__tit {
+  padding-top: 1rem; }
+
+.comotrabajamos {
+  /*seguimos en seccion como trabajamos*/
+  /*como hacer padding aca y porque no me deja?*/
+  display: flex;
+  flex-direction: column;
+  /*aplicando flexbox a todos los elementos de la grid, para luego poder centrar sus elementos y que quede prolijo*/
+  align-items: center; }
+
+.comotrabajamos__img {
+  width: 200px;
+  height: 200px;
+  /*agrandado de imagen*/
+  color: #ffffff; }
+
+.comotrabajamos__pasion {
+  margin-bottom: 1rem; }
+
+.comotrabajamos__calidad {
+  margin-bottom: 1rem; }
+
+.comotrabajamos__objetivos {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.comotrabajamos__tecnologias {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.comotrabajamos__p {
+  margin: 1rem; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  /*fila*/
+  list-style: none;
+  /*chau puntitos*/
+  /*centrando las palabras de la nav*/
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0; }
+
+.footer ul li a {
+  color: white; }
+
+.contacto2 {
+  padding: 2rem 0; }
+
+.contacto2__mapa {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.btn {
+  padding: 1px 1px 1px 1px; }
+
+ul {
+  /*aplicando flexbox a la barra de navegacion*/
+  display: flex;
+  flex-direction: row;
+  /*fila*/
+  list-style: none;
+  /*chau puntitos*/
+  padding: 1rem;
+  /*centrando las palabras de la nav*/ }
+
+header {
+  /*lleva los elementos de los divs a los extremos*/
+  background-color: #171718; }
+
+.encabezado {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  padding-left: 1rem; }
+
+nav {
+  /*alto nav*/
+  text-transform: uppercase;
+  /*mayusc*/
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 700;
+  /*porque cuando fijo la barra de navegacion se me va hacia el lado izquierdo?*/ }
+
+a:hover {
+  padding: 0.5rem;
+  color: #1a2421; }
+
+.nav-link {
+  color: #b0a5a5; }
+
+.nav-link:hover {
+  color: #ffffff; }
+
+/* SECCION NOSOTROS */
+.nosotros {
+  padding: 1.5rem 0;
+  background-color: #3f4144;
+  padding-top: 1rem; }
+
+.nosotros .titulo-seccion {
+  text-align: start;
+  margin: 1rem; }
+
+.nosotros .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.nosotros .contenedor__texto, .nosotros .contenedor__foto {
+  width: 40%; }
+
+.nosotros .contenedor__texto {
+  color: #ffffff;
+  background-color: #000000;
+  line-height: 30px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 90%; }
+
+.nuestros-servicios {
+  padding: 1rem;
+  text-align: center;
+  font-size: 12px; }
+
+@media screen and (max-width: 599px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .seccion-bienvenida {
+    width: 100%;
+    background-image: url(/img/fondo-home.jpg);
+    background-repeat: no-repeat; }
+  .como-trabajamos .grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1, 200px;
+    grid-template-areas: "img1" "img2" "img3" "img4"; }
+  .grid__hijo {
+    background-color: #665252;
+    color: #ffffff;
+    border-radius: 5px; }
+  .grid__hijo--1 {
+    grid-column: 1/1; }
+  .grid__hijo--2 {
+    grid-column: 1/1; }
+  .grid__hijo--3 {
+    grid-column: 1/1; }
+  .grid__hijo--4 {
+    grid-column: 1/1; }
+  .nuestrosservicios .servicios {
+    flex-direction: column; }
+  .nosotros .contenedor {
+    display: flex;
+    flex-direction: column-reverse; }
+  .nosotros .contenedor__texto {
+    width: 70%;
+    margin-top: 1rem; }
+  .nosotros .titulo-seccion {
+    display: flex;
+    flex-direction: column; }
+  .nosotros .contenedor__foto {
+    width: auto; }
+  .item1 {
+    text-align: center; }
+  .web-flexbox {
+    flex-direction: column;
+    justify-content: space-around; }
+  .texto {
+    width: 90%; }
+  .webflexbox__img {
+    /*no puedo ALINEAR la img web*/
+    width: 300px;
+    height: 250px; }
+  .responsive {
+    flex-direction: column; }
+  .ipad {
+    flex-direction: column; }
+  .item2 {
+    font-size: 50px;
+    text-align: center; } }
+
+/* MAPA */
+.red-sociales-iconoFacebook {
+  color: #3b5998; }
+
+.red-sociales-iconoInstagram {
+  color: #75143c; }
+
+.red-sociales-iconoTwitter {
+  color: #00acee; }
+
+/* EXTENDS */
+.btnBase, .home .seccion-bienvenida .btn-contacto, .btnEnviar {
+  color: #001e1d;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.5px;
+  border-radius: 7px;
+  text-align: center;
+  display: block;
+  width: 13vh; }
+
+.home .seccion-bienvenida .btn-contacto {
+  /*boton del inicio 1 the builder...*/
+  background-color: #f9bc60e6;
+  margin-top: 2rem;
+  margin: auto;
+  transition: transform 1s;
+  font-size: 14px; }
+
+/* MIXIN */
+.como-trabajamos .grid {
+  padding: 32px 0;
+  width: 100%;
+  background-color: #665252;
+  background-size: cover; }

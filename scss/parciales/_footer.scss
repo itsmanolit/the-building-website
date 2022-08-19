@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    /*fila*/
+    list-style: none;
+    /*chau puntitos*/
+    /*centrando las palabras de la nav*/
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    position: fixed;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+}
+
+.footer ul li a{
+    color: white;
+}
+
+.footer ul li a:hover{
+
+}

@@ -1,0 +1,57 @@
+ul {
+    /*aplicando flexbox a la barra de navegacion*/
+    display: flex;
+    flex-direction: row;
+    /*fila*/
+    list-style: none;
+    /*chau puntitos*/
+    padding: 1rem;
+    /*centrando las palabras de la nav*/
+}
+
+
+header {
+    /*lleva los elementos de los divs a los extremos*/
+    background-color: #171718;
+}
+
+
+.encabezado{
+height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo{
+    padding-left: 1rem;
+}
+
+
+nav {
+
+    /*alto nav*/
+    text-transform: uppercase;
+    /*mayusc*/
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 700;
+
+/*porque cuando fijo la barra de navegacion se me va hacia el lado izquierdo?*/
+}
+
+a:hover{
+    padding: 0.5rem;
+    color: #1a2421; 
+}
+
+.nav-link{
+    color: #b0a5a5;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
+

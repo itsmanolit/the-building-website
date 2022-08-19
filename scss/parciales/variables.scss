@@ -1,0 +1,57 @@
+
+/* MAPA */
+
+$redes:(
+    iconoFacebook: #3b5998,
+    iconoInstagram: #75143c,
+    iconoTwitter: #00acee,
+    );
+
+@each $clave, $valor in $redes {
+    .red-sociales-#{$clave} {
+        color: $valor;
+    }
+
+}
+
+/* EXTENDS */
+
+.btnBase {
+    color: #001e1d;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.5px;
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    width: 13vh;
+    
+}
+
+.home .seccion-bienvenida .btn-contacto {
+    /*boton del inicio 1 the builder...*/
+    background-color: #f9bc60e6;
+    margin-top: 2rem;
+    margin: auto;
+    transition: transform 1s;
+    @extend .btnBase;
+    font-size: 14px;
+}
+
+.btnEnviar {
+    @extend .btnBase;
+}
+
+/* MIXIN */
+
+
+@mixin background-seccion($bk) {
+    padding: 32px 0;
+    width: 100%;
+    background-color: $bk;
+    background-size: cover;
+}
+
+.como-trabajamos .grid {
+    @include background-seccion(#665252);
+}

@@ -1,0 +1,35 @@
+.titulo-proyectos {
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+
+}
+
+.row {
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.card {
+    background-color: #654d4d;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*hacer los 3 q faltan*/
+
+
+.card-body {
+    /* width: 27%; SEBA como hago para darle un tamaño al FONDO???*/
+    width: 180px;
+    text-align: center;
+
+}
+
+.card-title {
+    background-color: #0f0b0b;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}

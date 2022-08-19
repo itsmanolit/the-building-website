@@ -1,0 +1,35 @@
+/* SECCION NOSOTROS */
+.nosotros {
+    padding: 1.5rem 0;
+    background-color:$colorPrincipal;
+    padding-top: 1rem;
+    
+}
+.nosotros .titulo-seccion{
+    text-align: start;
+    margin: 1rem;
+    
+}
+
+
+
+.nosotros .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.nosotros .contenedor__texto, .nosotros .contenedor__foto{
+    width: 40%;
+
+}
+.nosotros .contenedor__texto{
+    color: #ffffff;
+    background-color: #000000; 
+    line-height: 30px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 90%;
+    
+
+}
