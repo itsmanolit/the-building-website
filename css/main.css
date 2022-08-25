@@ -1,3 +1,41 @@
+@charset "UTF-8";
+/* MAPA */
+.red-sociales-iconoFacebook {
+  color: #3b5998; }
+
+.red-sociales-iconoInstagram {
+  color: #75143c; }
+
+.red-sociales-iconoTwitter {
+  color: #00acee; }
+
+/* EXTENDS */
+.btnBase, .home .seccion-bienvenida .btn-contacto, .btnEnviar {
+  color: #001e1d;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 7px;
+  text-align: center;
+  display: block;
+  width: max-content;
+  /*se aplica al contenido del boton*/ }
+
+.home .seccion-bienvenida .btn-contacto {
+  /*boton del inicio 1 the builder...*/
+  background-color: #f9bc60e6;
+  margin-top: 2rem;
+  margin: auto;
+  transition: transform 1s;
+  font-size: 14px; }
+
+/* MIXIN */
+.como-trabajamos .grid {
+  padding: 32px 0;
+  width: 100%;
+  background-color: #616161;
+  background-size: cover; }
+
 .item1, .item2, .item3 {
   font-size: 65px;
   font-weight: 700;
@@ -117,8 +155,7 @@ main {
 
 /* COMO TRABAJAMOS */
 .titulo-seccion {
-  text-align: center;
-  font-size: 25px; }
+  text-align: center; }
 
 .como-trabajamos .grid {
   display: grid;
@@ -132,7 +169,7 @@ main {
   background-size: cover; }
 
 .grid__hijo {
-  background-color: #464646;
+  background-color: #cf0909;
   color: #ffffff;
   border-radius: 5px; }
 
@@ -183,10 +220,41 @@ main {
 
 .comotrabajamos__tecnologias {
   margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  text-align: center; }
 
 .comotrabajamos__p {
   margin: 1rem; }
+
+.grid-comotrabajamos {
+  border: 2px #513e3e;
+  padding: 1rem;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-template-areas: "img1 img2 img2" "img3 img3 img4" "img5 img5 img4";
+  gap: 5px; }
+
+.gridd-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.gridd__hijo--1 {
+  grid-area: img1; }
+
+.gridd__hijo--2 {
+  grid-area: img2; }
+
+.gridd__hijo--3 {
+  grid-area: img3; }
+
+.gridd__hijo--4 {
+  grid-area: img4; }
+
+.gridd__hijo--5 {
+  grid-area: img5; }
 
 .footer {
   display: flex;
@@ -235,7 +303,8 @@ header {
   height: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
 
 .logo {
   padding-left: 1rem; }
@@ -258,6 +327,9 @@ a:hover {
 
 .nav-link:hover {
   color: #ffffff; }
+
+.navbar-toggler-icon {
+  color: #b0a5a5; }
 
 /* SECCION NOSOTROS */
 .nosotros {
@@ -351,38 +423,31 @@ a:hover {
     font-size: 50px;
     text-align: center; } }
 
-/* MAPA */
-.red-sociales-iconoFacebook {
-  color: #3b5998; }
+/*.titulo-proyectos {
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
 
-.red-sociales-iconoInstagram {
-  color: #75143c; }
+}*/
+.proyectos h2 {
+  margin: 10vh 0; }
 
-.red-sociales-iconoTwitter {
-  color: #00acee; }
+.proyectos .row {
+  justify-content: center; }
 
-/* EXTENDS */
-.btnBase, .home .seccion-bienvenida .btn-contacto, .btnEnviar {
-  color: #001e1d;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 0.5px;
-  border-radius: 7px;
-  text-align: center;
-  display: block;
-  width: 13vh; }
+.card {
+  background-color: #654d4d;
+  display: flex;
+  justify-content: center; }
 
-.home .seccion-bienvenida .btn-contacto {
-  /*boton del inicio 1 the builder...*/
-  background-color: #f9bc60e6;
-  margin-top: 2rem;
-  margin: auto;
-  transition: transform 1s;
-  font-size: 14px; }
+/*hacer los 3 q faltan*/
+.card-body {
+  /* width: 27%; SEBA como hago para darle un tamaño al FONDO???*/
+  width: 180px;
+  text-align: center; }
 
-/* MIXIN */
-.como-trabajamos .grid {
-  padding: 32px 0;
-  width: 100%;
-  background-color: #665252;
-  background-size: cover; }
+.card-title {
+  background-color: #0f0b0b;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem; }

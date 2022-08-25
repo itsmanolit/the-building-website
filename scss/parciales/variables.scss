@@ -20,12 +20,11 @@ $redes:(
     color: #001e1d;
     font-size: 16px;
     font-weight: 700;
-    padding: 0.5px;
+    padding: 5px 10px;
     border-radius: 7px;
     text-align: center;
     display: block;
-    width: 13vh;
-    
+    width: max-content; /*se aplica al contenido del boton*/
 }
 
 .home .seccion-bienvenida .btn-contacto {
@@ -53,5 +52,5 @@ $redes:(
 }
 
 .como-trabajamos .grid {
-    @include background-seccion(#665252);
+    @include background-seccion(#616161);
 }

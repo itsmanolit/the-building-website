@@ -1,13 +1,17 @@
-.titulo-proyectos {
+/*.titulo-proyectos {
     text-align: center;
     margin: 1rem;
     text-transform: uppercase;
 
-}
+}*/
 
-.row {
-    margin-right: 0%;
-    margin-left: 0%;
+.proyectos{
+    h2{
+        margin: 10vh 0;
+    }
+    .row{
+        justify-content: center;
+    }
 }
 
 .card {

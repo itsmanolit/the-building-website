@@ -17,10 +17,11 @@ header {
 
 
 .encabezado{
-height: 70px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 
 }
 
@@ -52,6 +53,10 @@ a:hover{
 
 .nav-link:hover{
     color: #ffffff;
+}
+
+.navbar-toggler-icon{
+    color: #b0a5a5;
 }
 
 

@@ -4,7 +4,6 @@
 
 .titulo-seccion{
     text-align: center;
-    font-size: 25px;
 
 } 
 .como-trabajamos .grid{
@@ -21,8 +20,9 @@
 }
 
 
+
 .grid__hijo{
-    background-color:#464646;
+    background-color:#cf0909;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -88,6 +88,7 @@
 .comotrabajamos__tecnologias{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .comotrabajamos__p{
