@@ -10,41 +10,37 @@ ul {
 }
 
 
-header {
-    /*lleva los elementos de los divs a los extremos*/
-    background-color: #171718;
-}
-
-
 .encabezado{
-    height: 70px;
+    height: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
-}
-
-.logo{
-    padding-left: 1rem;
-}
-
-
-nav {
-
-    /*alto nav*/
+    background-color: #171718;
     text-transform: uppercase;
     /*mayusc*/
     font-size: 13px;
     color: #ffffff;
     font-weight: 700;
-
-/*porque cuando fijo la barra de navegacion se me va hacia el lado izquierdo?*/
+    /*position: fixed;*/
+    /*z-index: 100000;*/
 }
 
+
+.fa-code{
+    font-size: 38px;
+    color: rgb(174, 169, 169);
+    margin-left: 5px;
+}
+
+.fab{
+    margin: 4px;
+}
+
+
 a:hover{
-    padding: 0.5rem;
     color: #1a2421; 
+    background-color: rgba(255, 187, 0, 0.833);
 }
 
 .nav-link{
@@ -52,7 +48,7 @@ a:hover{
 }
 
 .nav-link:hover{
-    color: #ffffff;
+    color: #000000;
 }
 
 .navbar-toggler-icon{

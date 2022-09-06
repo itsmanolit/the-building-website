@@ -3,7 +3,9 @@
     font-weight: 700;
     padding: 2rem;
     text-align: start;
+    color: #000;
 }
+
 
 
 
@@ -13,8 +15,13 @@
     align-items: center;
 }
 
+.webflexbox__img{
+    width: 650px;
+    height: 550px;
+}
+
 .texto{
-    background-color: #665252; 
+    background-color:  rgb(255, 187, 0); 
     width: 50%;
     padding: 3rem;
     color: #0f0b0b;

@@ -17,3 +17,19 @@
 .footer ul li a{
     color: white;
 }
+
+.fa-whatsapp {
+    font-size: 40px;
+    display:block;
+    width:70px;
+    height:70px;
+    color: #fff;
+    background-color: green;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:70px;
+    text-align:center;
+    z-index:999;
+}
